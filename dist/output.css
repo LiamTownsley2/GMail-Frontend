@@ -558,10 +558,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.ml-16 {
-  margin-left: 4rem;
-}
-
 .ml-20 {
   margin-left: 5rem;
 }
@@ -582,6 +578,10 @@ video {
   width: 100%;
 }
 
+.w-\[300px\] {
+  width: 300px;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -590,16 +590,8 @@ video {
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .gap-4 {
@@ -608,22 +600,6 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.justify-self-end {
-  justify-self: end;
-}
-
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
-.rounded-md {
-  border-radius: 0.375rem;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
 }
 
 .rounded-lg {
@@ -639,92 +615,95 @@ video {
   background-color: rgb(246 248 252 / var(--tw-bg-opacity));
 }
 
-.bg-primary-2 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(194 231 255 / var(--tw-bg-opacity));
-}
-
 .bg-secondary-2 {
   --tw-bg-opacity: 1;
   background-color: rgb(238 243 252 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .p-5 {
   padding: 1.25rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
-.p-8 {
-  padding: 2rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-\[15px\] {
-  padding: 15px;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
-
-.pr-64 {
-  padding-right: 16rem;
-}
-
-.pr-72 {
-  padding-right: 18rem;
-}
-
-.pr-96 {
-  padding-right: 24rem;
-}
-
-.pr-\[120px\] {
-  padding-right: 120px;
-}
-
-.pr-\[140px\] {
-  padding-right: 140px;
-}
-
-.pr-\[200px\] {
-  padding-right: 200px;
-}
-
-.pr-\[480px\] {
-  padding-right: 480px;
-}
-
-.pt-0 {
-  padding-top: 0px;
 }
 
 .pr-\[485px\] {
   padding-right: 485px;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pr-\[185px\] {
+  padding-right: 185px;
+}
+
 .font-google-sans {
   font-family: "Product Sans", sans-serif;
+}
+
+.placeholder-secondary-1::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(32 33 36 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-secondary-1:-ms-input-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(32 33 36 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-secondary-1::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(32 33 36 / var(--tw-placeholder-opacity));
+}
+
+.selection\:outline-none *::-moz-selection {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.selection\:outline-none *::selection {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.selection\:outline-none::-moz-selection {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.selection\:outline-none::selection {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.hover\:border-0:hover {
+  border-width: 0px;
+}
+
+.hover\:outline-none:hover {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.active\:outline-none:active {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .child\:pt-3 > * {
